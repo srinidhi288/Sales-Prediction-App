@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.impute import SimpleImputer
 
 # Load your dataset (assuming it's already loaded into the 'df' DataFrame)
-df = pd.read_csv('train.csv')
+df = pd.read_csv('Train.csv')
 
 # Define the feature columns and target variable
 X = df.drop(columns=["Item_Outlet_Sales"])
